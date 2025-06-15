@@ -48,7 +48,7 @@ function upldateTime()
 {
   console.log('callng');
    updateTime=new Date().getTime()-startTime;
-  let milliseconds = Math.floor((updateTime%1000)/10);
+  let milliseconds = Math.floor((updateTime%600)/10);
   let seconds=Math.floor((updateTime/1000)%60);
   let minutes=Math.floor(updateTime/(1000*60));
   milliseconds=milliseconds<10 ? "0" + milliseconds:milliseconds;
