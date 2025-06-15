@@ -1,4 +1,4 @@
-body {
+  body {
   font-family: 'Segoe UI', sans-serif;
   background-color: rgba(0, 0, 0, 0.799);
   color:white;
@@ -15,45 +15,59 @@ body {
 
 .container {
   background:rgba(1, 1, 1, 0.562);
+  backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   text-align: center;
   width: 320px;
+  color: white;
+}
+.stopwatch{
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 20px 0;
 }
 
-#display {
-  font-size: 48px;
-  margin: 20px 0;
-}
+.buttons {
+  
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ margin: 15px 0;
+ 
 
-.buttons button {
+}
+button{
   padding: 10px 15px;
   font-size: 16px;
-  margin: 5px;
-  cursor: pointer;
   border: none;
-  border-radius: 6px;
-  background-color: #00b894;
-  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
   transition: 0.3s;
+  color:white;
+  background: #00b894;
+
 }
 
-.buttons button:hover {
-  background-color: #00b38fba;
+ button:hover {
+  background-color: #00b38f64;
 }
 
-#laps {
-  margin-top: 20px;
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  max-height: 150px;
+.laps{
+  margin-top: 10px;
+  max-height: 200px;
   overflow-y: auto;
-  font-size: 16px;
+  padding: 5px;
+  border-top: 2px solid rgba(255,255,255,0.3);
 }
+.lap-item{
+  background:rgba(255,255,255,0.2);
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 10px;
+  font-size: 1em;
+  animation:fadeIn 0.3s ease-in-out;
 
-#laps li {
-  padding: 4px 0;
-  border-bottom: 1px solid #ccc;
 }
