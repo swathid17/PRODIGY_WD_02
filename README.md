@@ -1,4 +1,4 @@
-PRODIGY_WD_02 - Stopwatch Web Application
+#PRODIGY_WD_02 - Stopwatch Web Application
 
 Task Description:
 This project is part of the Web Development Internship at Prodigy InfoTech.
