@@ -3,6 +3,7 @@
 Task Description:
 
 This project is part of the Web Development Internship at Prodigy InfoTech.
+
 Task-02 involves building a functional Stopwatch Web Application using HTML, CSS, and JavaScript.
 
 Features:
